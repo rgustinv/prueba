@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Impresoras e Impresoras</title>
+        <link rel="stylesheet" href="css/estilosm1e1.css">
+        <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Contrail+One|Montserrat" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    </head>
+    <body>
+       <h1 id="titulo">IMPRESORAS E IMPRESORAS</h1>
+        <header id="encabezado">
+           <h5 class="encabezadocontenido">PUNTOS DE DISTRIBUCION</h5>
+            <ul class="encabezadocontenido">
+                <li>CALI</li>
+                <li>MEDELLIN</li>
+                <li>BOGOTA</li>
+                <li>PASTO</li>
+            </ul>
+            <div class=encabezadofranja>
+                <img src="../img/logotipo.jpg" alt="Logo" width="100">
+                <nav id="menu"> <!-- Barra de Menu -->
+                <ul>
+                    <li><a href="Index.html"> <strong> INICIO </strong> </a></li>
+                    <li> <a href="#hogar"><strong> HOGAR </strong></a> </li>
+                    <li> <a href="#empresa"><strong> EMPRESA </strong></a> </li>
+                    <li><a href="#mantenimiento"><strong> MANTENIMIENTO </strong></a></li>
+                    <li><a href="html/productos.html" target="_blank"> <strong>PRODUCTOS</strong></a></li>
+                </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="hogar" class="seccion">
+            <h3>IMPRESORAS DE HOGAR</h3>
+            <img src="img/imphogar.jpg" alt="Impresoras e Hogar" width="200" class="izquierda">
+            <p>Te brindamos el mejor servicio directo en tu hogar, sólo tienes que llamarnos y  máximo en tres horas estaremos en tu hogar brindándote la mejor experiencia con equipos de impresión. </p>
+            <p>También distribuimos insumos de la mejor calidad para todas las marcas y las instalamos en tu hogar</p>
+        </section>
+        <section id="empresa" class="seccion">
+            <h3>IMPRESORAS PARA EMPRESA</h3>
+            <img src="img/impempresa.jpg" alt="Impresora para Empresa" width="200" class="derecha">
+            <p>Te ofrecemos el mejor y eficiente servicio, te llevamos las maquinas a tu empresa, te las instalamos y capacitamos en su uso.</p>
+            <p>Te suministramos e instalamos los insumos que requieras, con los mejores precios y con el mejor servicio.</p>
+        </section>
+        <section id="mantenimiento" class="seccion">
+            <h3>SERVICIO DE MANTENIMIENTO</h3>
+            <img src="img/imprepara.jpg" alt="Mantenimiento" width="200" class="izquierda">
+            <p>Contamos con un personal tecnico especializado en todas las marcas del mercado, el cual te brindara la asesoria y servicio tecnico que requieras. </p>
+            <p>Nuestro compromiso es prestar el mejor servicio para satisfacer a nuestros clientes</p>
+        </section>
+        <footer class="footer">
+           <div class="contenedor">
+            <div class="contacto">
+                <img src="img/logotipo.jpg" alt="logotipo">
+                <a href="tel:3005643456"><strong>Teléfono</strong><span>3004565434</span></a>
+                <a href="mailto:contacto@empresa.com.co"><strong>Mail</strong> <span>contacto@empresa.com.co</span></a>
+            </div>
+            <form class="formulario">
+                 <div class="col1">
+                      <label for="nombre">Nombre</label>
+                      <input id="nombre" name="nombre" type="text" required  placeholder="Digite el nombre">
+                      <label for="email">Email</label>
+                      <input type="email" name="email" id="email" required placeholder="Digite un correo valido">
+                      <div class="sexo">
+                          <label for="mujer">
+                              <input type="radio" name="sexo" id="Mujer" value ="mujer" checked> Mujer
+                          </label>
+                          <label for="hombre">
+                              <input type="radio" name ="sexo" id="hombre" value ="hombre" Hombre> Hombre
+                          </label>
+                       </div>
+                       <div class="interes">
+                           <label for="cotizacion">
+                               <input type="checkbox" id="cotizacion" name="interes" value="cotizacion">Cotizacion
+                           </label>
+                           <label for="comentarios">
+                               <input type="checkbox" id="comentarios" name="interes" value="comentario" checked>Comentarios
+                           </label>
+                           <label for="reclamos">
+                               <input type="checkbox" id="reclamos" name="interes" value="reclamo">Reclamos
+                           </label>
+
+                           <label for="otros">
+                               <input type="checkbox" id="otros" name="interes" value="otro">Otros
+                           </label>
+                       </div>
+                   </div>
+                   <div class="col2">
+                       <div class="comentario">
+                          <label for="comentario">Comentario</label>
+                          <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Dejame tu comentario"></textarea>
+                       </div>
+                       <input type="submit" value="Enviar" id="enviar">
+                   </div>
+            </form>       
+            </div>
+        </footer>
+    </body>
+</html>
